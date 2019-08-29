@@ -4,7 +4,8 @@ Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-da
 
 Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.*/
 
-/*spinalCase("This Is Spinal Tap") should return "this-is-spinal-tap".
+/*TESTS
+spinalCase("This Is Spinal Tap") should return "this-is-spinal-tap".
 Passed
 spinalCase("thisIsSpinalTap") should return "this-is-spinal-tap".
 Passed
@@ -12,7 +13,8 @@ spinalCase("The_Andy_Griffith_Show") should return "the-andy-griffith-show".
 Passed
 spinalCase("Teletubbies say Eh-oh") should return "teletubbies-say-eh-oh".
 Passed
-spinalCase("AllThe-small Things") should return "all-the-small-things".*/
+spinalCase("AllThe-small Things") should return "all-the-small-things".
+Passed*/
 
 function spinalCase(str) {
  //slice into a new array to avoid mutating original, trim white space
