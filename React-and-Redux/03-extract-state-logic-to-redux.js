@@ -20,6 +20,7 @@ The messageReducer should return the current state if called with any other acti
 Passed/
 
 // define ADD, addMessage(), messageReducer(), and store here:
+//action type
 const ADD = 'ADD';
 //action creator
 const addMessage = (message) => {
@@ -28,7 +29,7 @@ const addMessage = (message) => {
       message
   }
 }
-
+//reducer
 const messageReducer = (state = [], action) => {
   switch (action.type) {
     case ADD:
